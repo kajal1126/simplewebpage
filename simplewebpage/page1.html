@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- boostrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!--boostrap link-->
+  
+  <!--fonts link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <!--fonts link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title>full stack</title>
+  <style>
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      outline: none;
+      font-family: "Merriweather", serif;
+      flex-wrap: wrap;
+    }
+    .banner{
+      position: relative;
+    }
+    .banner img{
+      width: 100%;
+      height: auto;
+    }
+    .heading{
+      position: absolute;
+      color: white;
+      top: 40px;
+      left: 80px;
+    }
+    .heading1{
+      top: 90px;
+      position: absolute;
+      color: white;
+      left: 80px;
+    }
+    .span1{
+      font-weight: 600;
+      font-size: 13px;
+    }
+    .box{
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+    }
+    .box p{
+      color: white;
+      margin: 10px auto;
+      font-size: 30px;
+    }
+    .box b{
+      font-size: 40px;
+    }
+    @media screen and (max-width:470px) {
+    .box b{
+      font-size: 25px;
+    }
+    .box p{
+      font-size: 19px;
+    }
+    
+    .span1{
+      font-size: 20px;
+    }
+    
+    .heading{
+      font-size: 28px;
+    }
+    .heading1{
+      font-size: 28px;
+    }
+    }
+    @media screen and (max-width:320px) {
+    .box p{
+      font-size: 9px;
+      margin:auto;
+    }
+    .box b{
+      font-size: 10px;
+    }
+    .box{
+      height: 30px;
+    }
+    .heading{
+      font-size: 9px;
+      left: 20px;
+      top: 30px;
+    }
+    .span1{
+      font-size: 7px;
+    }
+    .heading1{
+      font-size: 9px;
+      left: 20px;
+      top: 50px;
+    }
+
+    }
+    /* banner end */
+
+    /* cards start */
+    .card2{
+      display: flex;
+      justify-content:space-around;
+      margin: 100px 0;
+    }
+    .card1{
+      border: 1px solid lightgray;
+      border-radius: 7px;
+      box-shadow: 4px 4px 3px lightgray;
+    }
+    .card1 h3{
+      font-size: 25px;
+    }
+    .card1 p{
+      font-size: 13px;
+    }
+   
+    @media screen and (max-width:687px) {
+    .card1 h3{
+      font-size: 22px;
+    }
+    .card1 p{
+      font-size: 11px;
+    }
+     }
+    @media screen and (max-width:487px) {
+    .card1 h3{
+      font-size: 18px;
+    }
+    .card1 p{
+      font-size: 9px;
+    }
+     }
+    @media screen and (max-width:150px) {
+    .card1 h3{
+      font-size: 14px;
+      word-break: break-all;
+    }
+    .card1 p{
+      font-size: 7px;
+    }
+     }
+    /* cards end */
+
+     /* footer starts */
+
+    .boxfooter{
+      background-color: rgb(4, 78, 4);
+    }
+    .boxfooter h3{
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    .boxfooter p{
+      margin-left: 20px;
+    }
+    .boxfooter1{
+      background-color: brown;
+    }
+    .boxfooter1 h3{
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    .boxfooter1 p{
+      margin-left: 20px;
+    }
+    .copyright{
+      background-color: black;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    .copyright p{
+      color: white;
+      font-size: 10px;
+      margin: auto;
+    }
+    @media screen and (max-width:700px) {
+    .boxfooter h3{
+      margin-top: 20px;
+      margin-left: 20px;
+      font-size: 20px;
+    }
+    .boxfooter p{
+      font-size: 10px;
+    }
+    .boxfooter1 h3{
+      margin-top: 20px;
+      font-size: 20px;
+    }
+    .boxfooter1 p{
+      font-size: 10px;
+    }
+    .copyright p{
+      font-size: 8px;
+    }
+      
+    }
+    @media screen and (max-width:300px) {
+      .boxfooter h3{
+      margin-top: 20px;
+      margin-left: 20px;
+      font-size: 9px;
+      word-break: break-all;
+    }
+    .boxfooter p{
+      font-size: 8px;
+      word-break: break-all;
+    }
+    .boxfooter1 h3{
+      margin-top: 20px;
+      font-size: 9px;
+      word-break: break-all;
+    }
+    .boxfooter1 p{
+      font-size: 8px;
+      word-break: break-all;
+    }
+    .copyright p{
+      font-size: 6px;
+    }
+    }
+
+    /* footer end */
+
+
+    .container-fluid{
+      padding: 0;
+      flex-wrap: wrap;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+     <div class="banner">
+      <img src="images/developer.png" alt="images" style="max-width: 100%;">
+      <h1 class="heading">HI, <span class="span1"> I am John Doe</span></h1>
+      <h1 class="heading1">FULL STACK DEVELOPER</h1>
+      <div class="box">
+        <p>WORK, I CAN DO FOR <B>YOU</B></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- card  starts-->
+
+<div class="container-fluid">
+  <div class="row card2" >
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card1">
+        <img src="images/web.png" alt="images" width="100%">
+        <div class="card-body">
+          <h3>Web Development</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus culpa temporibus maxime architecto repudiandae modi tempore</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card1">
+        <img src="images/mobile.png" alt="images" width="100%">
+        <div class="card-body">
+          <h3>App Development</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus culpa temporibus maxime architecto repudiandae modi tempore</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card1">
+        <img src="images/uiux.png" alt="images" width="100%">
+        <div class="card-body">
+          <h3>UI UX Design</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus culpa temporibus maxime architecto repudiandae modi tempore</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+  <!-- card  end-->
+ 
+
+<!-- footer -->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 py-3 py-md-0 boxfooter">
+      <h3>Contact Me</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum rem, dicta quas eius eveniet sint!</p>
+      <p>dosomecoding@example.test</p>
+    </div>
+    <div class="col-md-6 py-3 py-md-0 boxfooter1">
+      <h3>About Me</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum rem, dicta quas eius eveniet sint!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ratione, possimus consequuntur accusamus enim doloribus!</p>
+    </div>
+    <div class="copyright">
+      <p>PROJECT BY DO SOME CODING</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- footer -->
+
+
+
+
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+ 
+</body>
+</html>
